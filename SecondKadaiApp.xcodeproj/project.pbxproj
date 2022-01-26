@@ -13,6 +13,7 @@
 		1435E68A279B8BED00AA7C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1435E688279B8BED00AA7C3B /* Main.storyboard */; };
 		1435E68C279B8BEF00AA7C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1435E68B279B8BEF00AA7C3B /* Assets.xcassets */; };
 		1435E68F279B8BEF00AA7C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1435E68D279B8BEF00AA7C3B /* LaunchScreen.storyboard */; };
+		1435E697279BD4AD00AA7C3B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1435E696279BD4AD00AA7C3B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1435E68B279B8BEF00AA7C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1435E68E279B8BEF00AA7C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1435E690279B8BEF00AA7C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1435E696279BD4AD00AA7C3B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1435E682279B8BED00AA7C3B /* AppDelegate.swift */,
 				1435E684279B8BED00AA7C3B /* SceneDelegate.swift */,
 				1435E686279B8BED00AA7C3B /* ViewController.swift */,
+				1435E696279BD4AD00AA7C3B /* SecondViewController.swift */,
 				1435E688279B8BED00AA7C3B /* Main.storyboard */,
 				1435E68B279B8BEF00AA7C3B /* Assets.xcassets */,
 				1435E68D279B8BEF00AA7C3B /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1435E697279BD4AD00AA7C3B /* SecondViewController.swift in Sources */,
 				1435E687279B8BED00AA7C3B /* ViewController.swift in Sources */,
 				1435E683279B8BED00AA7C3B /* AppDelegate.swift in Sources */,
 				1435E685279B8BED00AA7C3B /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32W5X89Z44;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32W5X89Z44;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
