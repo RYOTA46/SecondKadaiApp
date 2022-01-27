@@ -13,14 +13,14 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     // 受け取るためのプロパティ（変数）を宣言しておく
-    var inputName: UITextField
+    var inputName: String? = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        label.text = "こんにちは、\(inputName)さん"   }
+        label.text = "こんにちは、\(inputName!)さん"   }
     
     /*
     // MARK: - Navigation

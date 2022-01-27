@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     // 画面入力した名前を保持する変数
     @IBOutlet weak var textFieldName: UITextField!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
