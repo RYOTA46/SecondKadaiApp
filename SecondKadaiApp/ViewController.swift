@@ -19,10 +19,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    // ラベル入力時のメソッド
-    @IBAction func inputName(_ sender: Any) {
-    }
-    
     // 「あいさつ」ボタン押下時のメソッド
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // segueから遷移先のViewControllerを取得する

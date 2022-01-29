@@ -26,9 +26,6 @@
                                 <rect key="frame" x="90" y="268" width="234" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="inputName:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Yme-cf-OwN"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2a-pW-zmA">
                                 <rect key="frame" x="90" y="402" width="234" height="48"/>
@@ -100,6 +97,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="plb-rO-dHT"/>
+                    <connections>
+                        <outlet property="label" destination="vON-G8-Q5H" id="AYg-Ev-J4R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Xx-GE-IpH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Wl0-Or-vp8" userLabel="Exit" sceneMemberID="exit"/>
